@@ -7,9 +7,26 @@ If you use this code or data, please cite the following:
 coming soon
 ```
 
+## Physical characteristics
+For drop impact phenomenon, two dimensionless numbers are crucial for understanding the dominant physical mechanisms governing fluid flows and classifying various splashing behaviours, namely the Reynolds number (*Re*) and Weber number (*We*).
+
+<!-- ![Reynolds](https://latex.codecogs.com/svg.image?&space;Re=\frac{\rho_ldU_0}{\mu_l},We=\frac{\rho_ldU_0^2}{\sigma}) -->
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?&space;Re=\frac{\rho_ldU_0}{\mu_l},We=\frac{\rho_ldU_0^2}{\sigma}" alt="Re and We">
+</p>
+
+
 ## Basilisk
 To run the simulation, please check and install the open-source finite-volume adaptive [Basilisk](http://basilisk.fr/) solver.  
 Please note that the code may not compile or run correctly depending on the software version.
+
+### drop.c
+This is an axisymmetric case (2D) to do a parametric study of drop impact.  
+Variations of impact conditions can be made by modifying the following parameters in the code:
+- Reynolds number
+- Weber number
+- Drop shape
 
 ### Running on local computer  
 
