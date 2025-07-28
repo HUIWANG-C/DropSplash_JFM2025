@@ -11,7 +11,7 @@ for t in np.arange(0., 0.0901, 0.00072):
   filelist.append(file)
 print(filelist)
 
-path = "/media/huier/Mybook_12T/Axi_shape/2htg/Dh38/Re2500/We800/"
+path = "..../htg/Dh38/Re2500/We800/"
 print(path)
 
 #loop every htg file from the list
